@@ -4,6 +4,9 @@ apps:
     appID: orderprocessing
     appPort: 7001
     command: ["dotnet", "run"]
+    daprHTTPPort: 3501
   - appDirPath: ../DaprDemoPublisher/
     appID: orderpublisher
+    appProtocol: http
     command: ["dotnet", "run"]
+    daprHTTPPort: 3500

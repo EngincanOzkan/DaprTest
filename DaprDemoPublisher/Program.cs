@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using System.Text.Json;
 
-var baseURL = "http://localhost:3500";
+var baseURL = "http://localhost:3501";
 const string PUBSUB = "orderpubsub";
 const string TOPIC = "orders";
 const string APP_ID = "orderprocessing";

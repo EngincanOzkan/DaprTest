@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\engin\\Documents\\p2\\DaprFirstRun\\DaprDemoClient\\DaprDemoClient.csproj": {}
+    "/home/engincan/Documents/Projects/DaprTest/DaprDemoClient/DaprDemoClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\engin\\Documents\\p2\\DaprFirstRun\\DaprDemoClient\\DaprDemoClient.csproj": {
+    "/home/engincan/Documents/Projects/DaprTest/DaprDemoClient/DaprDemoClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\engin\\Documents\\p2\\DaprFirstRun\\DaprDemoClient\\DaprDemoClient.csproj",
+        "projectUniqueName": "/home/engincan/Documents/Projects/DaprTest/DaprDemoClient/DaprDemoClient.csproj",
         "projectName": "DaprDemoClient",
-        "projectPath": "C:\\Users\\engin\\Documents\\p2\\DaprFirstRun\\DaprDemoClient\\DaprDemoClient.csproj",
-        "packagesPath": "C:\\Users\\engin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engin\\Documents\\p2\\DaprFirstRun\\DaprDemoClient\\obj\\",
+        "projectPath": "/home/engincan/Documents/Projects/DaprTest/DaprDemoClient/DaprDemoClient.csproj",
+        "packagesPath": "/home/engincan/.nuget/packages/",
+        "outputPath": "/home/engincan/Documents/Projects/DaprTest/DaprDemoClient/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\engin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/engincan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
