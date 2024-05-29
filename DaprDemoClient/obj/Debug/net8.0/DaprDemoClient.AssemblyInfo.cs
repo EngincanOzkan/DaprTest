@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DaprDemoClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10073dd9a04f2f947ee4ef2ece4f44f3f0371ea2")]
 [assembly: System.Reflection.AssemblyProductAttribute("DaprDemoClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DaprDemoClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

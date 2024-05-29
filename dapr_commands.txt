@@ -1,0 +1,13 @@
+//FIRST RUN
+
+dapr run --app-id productservice --dapr-http-port 3500 --app-port 5239 -- dotnet run
+
+dapr run --app-id productserviceclient --app-protocol http --dapr-http-port 3501 -- dotnet run
+
+http://localhost:3500/v1.0/invoke/productservice/method/allproducts
+
+//SECOND RUN
+
+dapr run --app-id orderprocessing --app-port 7001 --dapr-http-port 3501 -- dotnet run
+
+dapr run --app-id orderpublisher --app-protocol http --dapr-http-port 3500 -- dotnet run

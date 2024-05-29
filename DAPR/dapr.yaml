@@ -1,0 +1,9 @@
+version: 1
+apps:
+  - appDirPath: ../DaprSecondRunSubscriber/
+    appID: orderprocessing
+    appPort: 7001
+    command: ["dotnet", "run"]
+  - appDirPath: ../DaprDemoPublisher/
+    appID: orderpublisher
+    command: ["dotnet", "run"]

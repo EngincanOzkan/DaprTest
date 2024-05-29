@@ -5,7 +5,21 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaprFirstRun", "DaprFirstRun\DaprFirstRun.csproj", "{E7BFE885-3937-4060-876C-3E5D2ABD94C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprDemoClient", "..\DaprDemoClient\DaprDemoClient.csproj", "{B2F05DAC-E0FE-4FF9-8CD0-1D8BDF8DEF5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaprDemoClient", "..\DaprDemoClient\DaprDemoClient.csproj", "{B2F05DAC-E0FE-4FF9-8CD0-1D8BDF8DEF5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaprSecondRunSubscriber", "..\DaprSecondRunSubscriber\DaprSecondRunSubscriber.csproj", "{3617996A-7C94-40D3-B6D9-60ED9413840B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaprDemoPublisher", "..\DaprDemoPublisher\DaprDemoPublisher.csproj", "{8742F8BD-09F5-4B18-8DE0-C5BC2179ACBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EXT", "EXT", "{B35A6F95-E7B9-47AF-8D40-A8DCD942E454}"
+	ProjectSection(SolutionItems) = preProject
+		..\dapr_commands.txt = ..\dapr_commands.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAPR", "DAPR", "{1F849FA4-86F1-41AE-807B-FE173D50575B}"
+	ProjectSection(SolutionItems) = preProject
+		..\DAPR\dapr.yaml = ..\DAPR\dapr.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +35,14 @@ Global
 		{B2F05DAC-E0FE-4FF9-8CD0-1D8BDF8DEF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F05DAC-E0FE-4FF9-8CD0-1D8BDF8DEF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F05DAC-E0FE-4FF9-8CD0-1D8BDF8DEF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3617996A-7C94-40D3-B6D9-60ED9413840B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3617996A-7C94-40D3-B6D9-60ED9413840B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3617996A-7C94-40D3-B6D9-60ED9413840B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3617996A-7C94-40D3-B6D9-60ED9413840B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8742F8BD-09F5-4B18-8DE0-C5BC2179ACBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8742F8BD-09F5-4B18-8DE0-C5BC2179ACBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8742F8BD-09F5-4B18-8DE0-C5BC2179ACBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8742F8BD-09F5-4B18-8DE0-C5BC2179ACBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
